@@ -21,7 +21,7 @@ for i in range(x):
     del ls[index]
     ls.insert(index, randint(0, 0))
 
-    print(ls)
+print(ls)
 
 
     
