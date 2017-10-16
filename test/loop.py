@@ -1,2 +1,2 @@
 for j in range(10):
-    exec(open('ran.py').read())
+    exec(open('ran2.py').read())
