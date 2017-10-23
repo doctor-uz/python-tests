@@ -21,7 +21,7 @@ q = 8
 #No faults
 sys.stdout = open('ran6.txt', 'w')
 for h in range(2000):
-    print(0, 1)
+    print(0, 1.0)
 
 
 last = []

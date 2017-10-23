@@ -17,7 +17,7 @@ x = 8
 y = statistics.mean(rowdata)
 e = statistics.stdev(rowdata)
 
-                
+
 print(statistics.mean(rowdata), statistics.stdev(rowdata))
 
 
