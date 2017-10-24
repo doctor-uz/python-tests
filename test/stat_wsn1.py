@@ -8,7 +8,7 @@ from statistics import mean
 x = []
 y = []
 
-with open('ran6.txt') as infile:
+with open('wsn1.txt') as infile:
     for line in infile:
         # if line.split()[0] == '1':
         fields_x = line.split()[0]
@@ -97,7 +97,7 @@ fig = plt.figure()
 plt.errorbar(x, y, e, linestyle='None', marker='o')
 plt.show()
 
-fig.savefig('temp2.pdf', dpi=fig.dpi)
+fig.savefig('stat_wsn1.pdf', dpi=fig.dpi)
 
 
 

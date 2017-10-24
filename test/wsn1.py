@@ -19,7 +19,7 @@ d = 7
 q = 8
 
 #No faults
-sys.stdout = open('ran6.txt', 'w')
+sys.stdout = open('wsn1.txt', 'w')
 for h in range(2000):
     print(0, 1.0)
 
@@ -35,7 +35,7 @@ for i in range(x):
     del ls[index]
     ls.insert(index, randint(0, 0))
 v = sum(ls)/n
-with open("ran6.txt", "a") as f:
+with open("wsn1.txt", "a") as f:
     for j in range(2000):
         g = 1-(abs(v - 0.6) - e)/(u-l)
         print(x, g)
@@ -52,7 +52,7 @@ for iiiiiii in range(y):
     del ls2[index]
     ls2.insert(index, randint(0, 0))
 v = sum(ls2)/n
-with open("ran6.txt", "a") as f:
+with open("wsn1.txt", "a") as f:
     for j in range(2000):
         g2 = 1-(abs(v - 0.6) - e)/(u-l)
         print(y, g2)
@@ -68,7 +68,7 @@ for iiiiiiii in range(z):
     del ls3[index]
     ls3.insert(index, randint(0, 0))
 v = sum(ls3)/n
-with open("ran6.txt", "a") as f:
+with open("wsn1.txt", "a") as f:
     for j in range(2000):
         g3 = 1-(abs(v - 0.6) - e)/(u-l)
         print(z, g3)
@@ -85,7 +85,7 @@ for ii in range(a):
     del ls4[index]
     ls4.insert(index, randint(0, 0))
 v = sum(ls4)/n
-with open("ran6.txt", "a") as f:
+with open("wsn1.txt", "a") as f:
     for j in range(2000):
         g4 = 1-(abs(v - 0.6) - e)/(u-l)
         print(a, g4)
@@ -102,7 +102,7 @@ for iii in range(b):
     del ls5[index]
     ls5.insert(index, randint(0, 0))
 v = sum(ls5)/n
-with open("ran6.txt", "a") as f:
+with open("wsn1.txt", "a") as f:
     for j in range(2000):
         g5 = 1-(abs(v - 0.6) - e)/(u-l)
         print(b, g5)
@@ -119,7 +119,7 @@ for iiii in range(c):
     del ls6[index]
     ls6.insert(index, randint(0, 0))
 v = sum(ls6)/n
-with open("ran6.txt", "a") as f:
+with open("wsn1.txt", "a") as f:
     for j in range(2000):
         g6 = 1-(abs(v - 0.6) - e)/(u-l)
         print(c, g6)
@@ -136,7 +136,7 @@ for iiii in range(d):
     del ls7[index]
     ls7.insert(index, randint(0, 0))
 v = sum(ls7)/n
-with open("ran6.txt", "a") as f:
+with open("wsn1.txt", "a") as f:
     for j in range(2000):
         g7 = 1-(abs(v - 0.6) - e)/(u-l)
         print(d, g7)
@@ -153,7 +153,7 @@ for iiiii in range(q):
     del ls8[index]
     ls8.insert(index, randint(0, 0))
 v = sum(ls8)/n
-with open("ran6.txt", "a") as f:
+with open("wsn1.txt", "a") as f:
     for j in range(2000):
         g8 = 1-(abs(v - 0.6) - e)/(u-l)
         print(q, g8)
